@@ -4,8 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Consideraciones
 
-- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-- La carga de archivos debe ser en txt, el fron realiza la validacion para aceptar solo ese formato de archivo.
+- Run `ng serve` para ejecutar. Navegar a `http://localhost:4200/`.
+- La carga de archivos debe ser en txt, el front realiza la validacion para aceptar solo ese formato de archivo.
 
 ## BackEnd Necesario!
 
