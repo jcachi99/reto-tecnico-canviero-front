@@ -61,6 +61,10 @@ export class AppComponent implements OnInit{
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
+  applyFilterE(filterValue : string){
+    this.dataSourceE.filter = filterValue.trim().toLowerCase();
+  }
+
   sendFile():void{
     const body = new FormData();
     body.append('file', this.fileTmp.fileRaw, this.fileTmp.fileName)

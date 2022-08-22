@@ -50,7 +50,7 @@
   <div>
     <h2>Clientes con Error</h2>
     <mat-form-field fxFlex="40%">
-      <input (keyup)="applyFilter($any($event.target).value)" matInput placeholder="Filtrar">
+      <input (keyup)="applyFilterE($any($event.target).value)" matInput placeholder="Filtrar">
     </mat-form-field>
     <table mat-table [dataSource]="dataSourceE" class="mat-elevation-z8">
       <ng-container matColumnDef="nombre">
